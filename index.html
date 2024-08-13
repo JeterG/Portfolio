@@ -1,9 +1,143 @@
-<!doctype html>
-<html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeter Gutierrez - Resume & Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section-title {
+            font-size: 1.5em;
+            margin-top: 20px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .job-title, .project-title {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .location, .duration {
+            font-style: italic;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        ul {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jeter Gutierrez</h1>
+        <p><a href="mailto:jetergdev@gmail.com">jetergdev@gmail.com</a> | <a href="https://www.github.com/jeterg" target="_blank">GitHub</a></p>
+    </header>
+
+    <div class="container">
+        <section>
+            <div class="section-title">Work Experience</div>
+
+            <div class="job-title">Backend Software Engineer - Salvatore and Co</div>
+            <div class="location">New York, NY</div>
+            <div class="duration">January 2024 – Present</div>
+            <ul>
+                <li>Managed a database of clients and products using SQL in an agile environment, ensuring data integrity and optimized query performance.</li>
+                <li>Developed Python scripts to perform analytical statistics on a dataset of 20,000 customers, enhancing data-driven decision-making.</li>
+                <li>Designed and implemented a system for generating appraisals and bills of sale, ensuring accurate stock valuation for insurance companies.</li>
+                <li>Utilized integration testing tools to ensure seamless platform migrations and maintain system functionality.</li>
+            </ul>
+
+            <div class="job-title">Software Engineer (AI Training) - Remotasks</div>
+            <div class="location">Remote</div>
+            <div class="duration">June 2023 – January 2024</div>
+            <ul>
+                <li>Enhanced code quality and performance by 20%, leading to a 30% reduction in processing time.</li>
+                <li>Initiated and led scripting projects that improved training processes, resulting in a 15% increase in operational efficiency.</li>
+                <li>Played a key role in team efforts that enhanced system accuracy, contributing to a 25% increase in project delivery speed.</li>
+            </ul>
+
+            <div class="job-title">Backend Software Engineer - JUMUNA Inc.</div>
+            <div class="location">New York, NY</div>
+            <div class="duration">November 2022 – June 2023</div>
+            <ul>
+                <li>Managed and optimized data storage and retrieval processes in MongoDB, enhancing database performance and scalability.</li>
+                <li>Developed Python scripts to integrate a POS system with 30,000 stock items, ensuring accurate pricing and stock quantity.</li>
+                <li>Conducted validation tests through the CLI to maintain uptime and reliability of the POS system.</li>
+            </ul>
+
+            <div class="job-title">Software Engineer (Backend Core Team) - MaestroQA</div>
+            <div class="location">New York, NY</div>
+            <div class="duration">March 2021 – November 2022</div>
+            <ul>
+                <li>Developed ETL (Extract, Transform, Load) pipelines using an object-oriented approach in Python, reducing data handling errors by 30% and enhancing data flow efficiency for the SaaS product in AWS, which improved integration support.</li>
+                <li>Built robust RESTful APIs using FastAPI, increasing system reliability by 40% with APIs designed for both the DevOps team and external clients.</li>
+                <li>Managed CI/CD pipelines in CircleCI, reducing deployment interruptions and speeding up integration by 25% through the implementation of automated tests and Docker containerization.</li>
+            </ul>
+        </section>
+
+        <section>
+            <div class="section-title">Projects</div>
+
+            <div class="project-title">Browsable Directory REST API Development</div>
+            <ul>
+                <li>Developed efficient file and directory management features using the Python FastAPI framework, significantly improving user interface and functionality through RESTful API design.</li>
+                <li><strong>Technologies:</strong> Python, FastAPI, REST API</li>
+            </ul>
+
+            <div class="project-title">Multiuser Engagement Editing Platform</div>
+            <ul>
+                <li>Designed the backend for a collaborative editing platform, enhancing team productivity and user engagement.</li>
+                <li><strong>Technologies:</strong> Python, Flask, Web Application, Collaboration</li>
+            </ul>
+        </section>
+
+        <section>
+            <div class="section-title">Skills</div>
+            <p><strong>Technical Skills:</strong> AWS, Docker, CircleCI, DataDog, Rollbar, MySQL, PostgreSQL, MongoDB, Node.js, Flask, Django, FastAPI, Python, Java, Cloud Technologies, Linux, Ubuntu, Data Models, Non-relational Databases, Bash</p>
+            <p><strong>Soft Skills:</strong> Team Leadership, Problem Solving, Strategic Planning, Effective Communication, Conflict Resolution, Code Review</p>
+        </section>
+
+        <section>
+            <div class="section-title">Education</div>
+
+            <div class="job-title">Eastern University - Masters in Data Science</div>
+            <div class="location">Saint Davids, PA</div>
+            <div class="duration">January 2023 | Present</div>
+
+            <div class="job-title">City College of New York - Bachelor of Science in Computer Science</div>
+            <div class="location">New York, NY</div>
+            <div class="duration">August 2015 | May 2019</div>
+        </section>
+
+        <section>
+            <div class="section-title">Awards</div>
+            <p>Academic Excellence (City College of New York) - Awarded for outstanding academic performance in Computer Science, May 2019</p>
+        </section>
+    </div>
+</body>
 </html>
