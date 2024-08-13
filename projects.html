@@ -1,46 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Shared head section -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeter Gutierrez - Projects</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Jeter Gutierrez - Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container {
+            margin-top: 20px;
+        }
+        .section-title {
+            font-size: 1.5em;
+            margin-top: 20px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="projects.html">Projects</a></li>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Jeter Gutierrez</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                <li class="nav-item active"><a class="nav-link" href="projects.html">Projects</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="container">
-        <h1>Projects</h1>
+        <h1 class="section-title">Projects</h1>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-secondary">
+                <a href="https://github.com/JeterG/Browsable-Directory-REST-API" target="_blank">Browsable Directory REST API Development</a>
+                <ul>
+                    <li>Developed efficient file and directory management features using the Python FastAPI framework, significantly improving user interface and functionality through RESTful API design.</li>
+                    <li><strong>Technologies:</strong> Python, FastAPI, REST API, Docker</li>
+                </ul>
+            </li>
 
-        <div class="project-title"><a href="https://github.com/JeterG/Browsable-Directory-REST-API" target="_blank">Browsable Directory REST API Development</a></div>
-        <ul>
-            <li>Developed efficient file and directory management features using the Python FastAPI framework, significantly improving user interface and functionality through RESTful API design.</li>
-            <li><strong>Technologies:</strong> Python, FastAPI, REST API, Docker</li>
+            <li class="list-group-item list-group-item-secondary">
+                <a href="https://github.com/JeterG/MEEP" target="_blank">Multiuser Engagement Editing Platform</a>
+                <ul>
+                    <li>Designed the backend for a collaborative editing platform, enhancing team productivity and user engagement.</li>
+                    <li><strong>Technologies:</strong> Python, Flask, Web Application, Collaboration</li>
+                </ul>
+            </li>
+
+            <li class="list-group-item list-group-item-secondary">
+                <a href="https://github.com/JeterG/CSC343/blob/master/GUTIERREZ_JETER_CSC343_FALL_2017_LAB_8_SINGLE_CYCLE_CPU/GUTIERREZ_JETER_LAB_8_FALL_2017/GUTI_SINGLE_CYCLE_CPU.vhd" target="_blank">Single Cycle CPU</a>
+                <ul>
+                    <li>Developed a Single Cycle CPU in VHDL that performs various operations.</li>
+                    <li>Implemented to 32 bits. Designed and tested using the <a href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=502" target="_blank">Altera DE2-115 FPGA Board</a> and Quartus.</li>
+                    <li><a href="https://github.com/JeterG/CSC343/blob/master/GUTIERREZ_JETER_CSC343_FALL_2017_LAB_8_SINGLE_CYCLE_CPU/GUTIERREZ_JETER_CSC343_LAB_8_SINGLE_CYCLE_CPU_FALL_2017.pdf" target="_blank">More information discussed in a documentation write-up</a></li>
+                    <li><strong>Technologies:</strong> VHDL, Quartus, Altera</li>
+                </ul>
+            </li>
         </ul>
-
-        <div class="project-title"><a href="https://github.com/JeterG/MEEP" target="_blank">Multiuser Engagement Editing Platform</a></div>
-        <ul>
-            <li>Designed the backend for a collaborative editing platform, enhancing team productivity and user engagement.</li>
-            <li><strong>Technologies:</strong> Python, Flask, Web Application, Collaboration</li>
-        </ul>
-
-        <div class="project-title"><a href="https://github.com/JeterG/CSC343/blob/master/GUTIERREZ_JETER_CSC343_FALL_2017_LAB_8_SINGLE_CYCLE_CPU/GUTIERREZ_JETER_LAB_8_FALL_2017/GUTI_SINGLE_CYCLE_CPU.vhd" target="_blank">Single Cycle CPU</a></div>
-        <ul>
-            <li>Developed a Single Cycle CPU in VHDL that performs various operations.</li>
-            <li>Implemented to 32 bits. Designed and tested using the <a href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=502" target="_blank">Altera DE2-115 FPGA Board</a> and Quartus.</li>
-            <li><a href="https://github.com/JeterG/CSC343/blob/master/GUTIERREZ_JETER_CSC343_FALL_2017_LAB_8_SINGLE_CYCLE_CPU/GUTIERREZ_JETER_CSC343_LAB_8_SINGLE_CYCLE_CPU_FALL_2017.pdf" target="_blank">More information discussed in a documentation write-up</a></li>
-            <li><strong>Technologies:</strong> VHDL, Quartus, Altera</li>
-        </ul>
-
-        <!-- Add more projects here as needed -->
     </div>
-</body>
-</html>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist
